@@ -1,0 +1,703 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Roboto ';
+    overflow-x: hidden;
+}
+a
+{
+    font-size: 1.1vw;
+}
+#header1
+{
+
+    background-color: aliceblue;
+    height: 5vh;
+}
+
+
+
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(201, 200, 200);
+  }
+  
+  .li1 {
+   
+    float: right;
+    margin-right: 2vw;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    
+    
+    
+  }
+  
+  .li1 .a1 {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 0.8vh;
+    padding-bottom: 6px;
+    padding-left: 0.2vw;
+    padding-right: 0.2vw;
+    margin-bottom: 0.0vh;
+    text-decoration: none;
+    font-weight: 300;
+    
+    
+    transition: all 0.5s;
+    font-size: 2.4vh;
+ 
+    
+
+    
+  }
+  
+ .li1 .a1:hover
+ {
+    box-shadow: inset 0px -2px blue;
+    text-shadow: .25px 0px .1px,
+    -.25px 0px .1px;
+ }
+
+
+ .li1 .a1:active
+{
+    transition: none;
+    box-shadow: inset 0px 3px rgba(0, 70, 255, 0.5) ,inset 3px 0px rgba(0, 70, 255, 0.5)
+
+    ,inset -3px 0px rgba(0, 70, 255, 0.5)  ;
+    
+}
+
+#header2
+{
+    overflow: hidden;
+    background-color: aliceblue;
+    height: 5.2vw;
+    
+    margin-bottom: 0.0vw;
+}
+
+
+
+
+.ul2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aliceblue;
+  }
+  
+  .li2 {
+   
+
+    float: left;
+    margin-right: 0vw;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    
+    
+  }
+  
+  .li2 .a2 {
+    
+    display: block;
+    color: black;
+    text-align: center;
+    float: left;
+    padding-top: 2.3vw;
+    padding-bottom: 2vw;
+    padding-left: 1.0vw;
+    padding-right: 1.0vw;
+    margin-bottom: -1.5vw;
+    margin-top: 0vh;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    text-decoration: none;
+    font-weight: 300;
+    color: blue;
+    
+   
+    transition: all 0.1s;   
+    font-size: 1.2vw;
+    
+  }
+  
+
+  
+ .li2 .a2:hover
+ {
+    transition: none;
+    
+    text-shadow: .25px 0px .1px,
+    -.25px 0px .1px blue;
+ }
+ .li2 .a2:active:not(.signs .li2 .a2 )
+{
+    box-shadow: inset 0px 3px rgba(0, 70, 255, 0.5) ,inset 3px 0px rgba(0, 70, 255, 0.5)
+
+    ,inset -3px 0px rgba(0, 70, 255, 0.5)  ;
+    transition: none;
+}
+
+
+
+.signs>.li2 .a2 
+{
+   
+    padding: 0;
+    margin: 0.5vw;
+    margin-left: 1vw;
+}
+.signs
+{
+    float: right;
+    margin-right: 2vw;
+    margin-left: 4vw;
+    margin-top: 1.2vw;
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 1240px)
+ {
+  
+  .names
+  {
+    position: relative;
+    right: 7vw;
+    margin-left: 0;
+  }
+  .nokia
+  {
+    transform: scale(0.8);
+    position: relative;
+    right: 4vw;
+    margin-left: -2vw;
+  }
+  .signs
+  {
+    transform: scale(0.8);
+    
+  }
+  .li2 .a2
+  {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-bottom: 12px;
+  }
+  
+  .li2 .a2:active:not(.signs .li2 .a2 )
+  {
+    
+    box-shadow: inset 0px 3px rgba(0, 70, 255, 0.5) ,inset 3px 0px rgba(0, 70, 255, 0.5)
+
+    ,inset -3px 0px rgba(0, 70, 255, 0.5) ,inset 0px -3px rgba(0, 70, 255, 0.5)  ;
+  }
+  .names .li2 .a2
+  {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+ 
+
+    
+
+
+.nokia
+{
+   margin: 0;
+  
+   padding: 0;
+   float: left;
+   position: relative;
+   left: 2vw;
+   top: -2vh;
+}
+.names
+{
+   
+    margin-right: 5vw;
+    position: relative;
+    left:6vw;
+    
+}
+
+
+#content
+{
+
+    border: 1px solid;
+    margin-top: 0.1vh;
+    background-color: aliceblue;
+    height: 35vw;  
+    background-image: url(futurius22.png);
+    background-size: 100vw 35vw;
+}
+
+
+
+
+.field
+{
+  overflow: hidden;
+  margin-left: 14vw;
+  margin-top: 8vw;
+  transform: scale(1.2);
+  margin-bottom: 4vw;
+  
+}
+
+.button1
+{
+  background-color: blue; display: flex;
+       align-items: center;
+       justify-content: center; 
+       height: 3vw;
+       width: 12vw;
+        border-radius: 0.5vw;
+        transition: all 0.5s;
+}
+.button1>.a3
+{
+  text-decoration: none;color:
+   white; 
+   padding:0.3vw;
+   padding-top:1.4vw ;
+   padding-bottom: 1.4vw;
+    text-align: center;
+    border-radius: 0.2vw;
+    
+    font-size: 1.2vw;
+}
+.button1:hover
+{
+  background-color: rgb(66, 66, 168);
+}
+sup
+{
+  position: relative;
+  top:-1vw;
+}
+
+
+
+.arrow
+{
+ height: 3.5vw;
+ border-radius: 2vw;
+
+ 
+ filter: invert(0.9);
+ opacity: 0.8;
+}
+
+.arrowa
+{
+  display: inline-block;
+  
+  border-radius: 2vw;
+  
+  position: relative;
+  top:-2vw;
+}
+
+.arrow:active
+{
+  box-shadow: 2px 0 8px 6px rgb(242, 255, 0); 
+}
+
+.setof1
+{
+  
+  
+  height: 75vw;
+  margin-bottom: 0vw;
+  
+}
+@media only screen and (max-width: 1438px)
+{
+  .setof1
+  {
+    height: 88vw ;
+  }
+}
+@media only screen and (max-width: 995px)
+{
+   .setof1
+   {
+    height: 265vw;
+   }
+}
+.setof
+{
+  
+   padding-top: 4vw;
+   height: 65vw;
+   transform: scale(0.9);
+
+
+}
+.card
+{
+  margin-bottom: 4vw;
+}
+
+
+
+
+.discover
+{
+ 
+  
+  margin-top: 2vw;
+  height: 125vw;
+  width: 100vw;
+}
+@media only screen and (max-width: 1240px)
+{
+  .discover
+  {
+    height: 140vw;
+  }
+}
+@media only screen and (max-width: 1100px)
+{
+  .discover
+  {
+    height: 150vw;
+  }
+}
+@media only screen and (max-width: 1000px)
+{
+  .discover
+  {
+    height: 155vw;
+  }
+}
+.gradimage
+{
+  
+  height: 40vh;
+  background: url(tealgreen.webp);
+}
+
+.words
+{
+  height: 4vw;
+  margin-left: 4vw;
+  margin-top: 3vw;
+  display: inline-block;
+}
+.arrows1
+{
+  margin-left: 3.5vw;
+  margin-top: 5vw;
+}
+.images
+{
+  position: relative;
+  top:-5vw;
+}
+
+.acard:active
+{
+  box-shadow:  0px 4px rgba(0, 70, 255, 0.5) , 4px 0px rgba(0, 70, 255, 0.5)
+
+  , -4px 0px rgba(0, 70, 255, 0.5) , 0px -4px rgba(0, 70, 255, 0.5)  ;
+}
+
+
+.explore
+{
+  margin-top: 2vw;
+  height: 60vw;
+  width: 100vw;
+}
+@media only screen and (max-width: 1400px)
+{
+  .explore
+  {
+    height: 65vw;
+  }
+}
+@media only screen and (max-width: 1270px)
+{
+  .explore
+  {
+    height: 70vw;
+  }
+}
+@media only screen and (max-width: 1110px)
+{
+  .explore
+  {
+    height: 80vw;
+  }
+}
+
+@media only screen and (max-width: 1100px)
+{
+  .explore
+  {
+    height: 90vw;
+  }
+}
+@media only screen and (max-width: 1000px)
+{
+  .explore
+  {
+    height: 100vw;
+  }
+}
+.gradimage2
+{
+  
+  height: 40vh;
+  background: url(bluegreen.webp);
+}
+
+.words2
+{
+  height: 4vw;
+  margin-left: 4vw;
+  margin-top: 3vw;
+  display: inline-block;
+}
+.arrows2
+{
+  margin-left: 3.5vw;
+  margin-top: 5vw;
+}
+
+.images2
+{
+  
+  position: relative;
+  top:-5vw;
+}
+
+.realins
+{
+  overflow-x: scroll;
+  overflow-y: hidden;
+   height: 60vh;
+   background: rgb(76,68,213);
+   background: linear-gradient(90deg, rgba(76,68,213,1) 0%, rgba(54,54,217,1) 7%, rgba(50,50,228,1) 16%, rgba(0,212,255,1) 44%);
+
+}
+
+.tablet
+{
+transform: scale(0.3);
+float: right;
+position: relative;
+top: -30vw;
+left: 16vw;
+  
+}
+.field1
+{
+  overflow: hidden;
+  margin-left: 14vw;
+  margin-top: 8vw;
+  transform: scale(1.2);
+  margin-bottom: 4vw;
+}
+
+@media only screen and (max-width: 1110px)
+{
+  .tablet
+  {
+    position: relative;
+     top: -45vw;
+     left: 25vw;
+    transform: scale(0.2);
+  }
+  .field1
+  {
+    margin-top: 14vw;
+  }
+}
+
+.button2
+{
+  background-color: aliceblue; display: flex;
+       align-items: center;
+       justify-content: center; 
+       height: 3vw;
+       width: 14vw;
+        border-radius: 0.5vw;
+        transition: all 0.5s;
+}
+.button2>.a4
+{
+  text-decoration: none;color:
+   blue; 
+   padding:0.1vw;
+   padding-top:1.4vw ;
+   padding-bottom: 1.4vw;
+    text-align: center;
+    border-radius: 0.2vw;
+    
+    font-size: 1.0vw;
+}
+.button2:hover
+{
+  background-color: rgb(157, 157, 165);
+}
+
+
+.bottom
+{
+  height: 40vw;
+}
+.nokia1
+{
+  margin-top: 4vh;
+  margin-left: 5vw;
+}
+
+.column1
+{
+  margin-right: 9vw;
+  transform: scale(0.8);
+  position: relative;
+  left: 4vw;
+}
+.column1>a:active
+{
+  box-shadow:  0px 2px rgba(0, 70, 255, 0.5) , 2px 0px rgba(0, 70, 255, 0.5)
+
+  , -2px 0px rgba(0, 70, 255, 0.5) , 0px -2px rgba(0, 70, 255, 0.5)  ;
+}
+
+
+.bottom2
+{
+  margin-top: 3vw;
+}
+
+.column2
+{
+  margin-left: 5vw;
+}
+.column2>p:active
+{
+  box-shadow:  0px 2px rgba(0, 70, 255, 0.5) , 2px 0px rgba(0, 70, 255, 0.5)
+
+  , -2px 0px rgba(0, 70, 255, 0.5) , 0px -2px rgba(0, 70, 255, 0.5)  ;
+}
+.buttonbottom
+{
+  background-color: white; display: flex;
+       align-items: center;
+       justify-content: center; 
+       height: 4vw;
+       width: 16vw;
+       border: 1px solid blue;
+        border-radius: 0.3vw;
+        transition: all 0.5s;
+        position: relative;
+        top:-0.6vw;
+
+}
+.buttonbottom>.abot
+{
+  text-decoration: none;color:
+   blue; 
+   padding:0.0vw;
+   padding-top:1.4vw ;
+   padding-bottom: 1.4vw;
+    text-align: center;
+    border-radius: 0.2vw;
+    font-size: 1.2vw;
+    position: relative;
+    top: 20%;
+    left: 1vw;
+}
+.buttonbottom:hover
+{
+  
+  border: 1px solid rgb(76, 76, 183);
+  
+}
+.abot:hover
+{
+  color: rgb(71, 71, 189);
+}
+
+.iconbutton
+{
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 20px;
+  margin-left: 1vw;
+ 
+}
+.iconbot 
+{
+  position: relative;
+  top:10%;
+}
+.groupbottom
+{
+  margin-top: 3.0vw;
+  position: relative;
+  left:20vw;
+}
+@media only screen and (max-width: 1060px)
+{
+  .buttonbottom
+  {
+    position: relative;
+    top:-10%;
+  }
+  .groupbottom
+  {
+    position: relative;
+    left: 10vw;
+  }
+}
+
+.iconbutton:active
+{
+  box-shadow:  0px 2px rgba(0, 70, 255, 0.5) , 2px 0px rgba(0, 70, 255, 0.5)
+
+  , -2px 0px rgba(0, 70, 255, 0.5) , 0px -2px rgba(0, 70, 255, 0.5)  ;
+}
+
+.bottomend
+{
+  height: 20vw;
+  margin-left: 3.5vw;
+  margin-top: 3vw;
+}
+
+.column3
+{
+  margin-left: 1.5vw;
+}
+.column3>a:active
+{
+  box-shadow:  0px 2px rgba(0, 70, 255, 0.5) , 2px 0px rgba(0, 70, 255, 0.5)
+
+  , -2px 0px rgba(0, 70, 255, 0.5) , 0px -2px rgba(0, 70, 255, 0.5)  ;
+}
